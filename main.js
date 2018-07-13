@@ -66,17 +66,25 @@ for (let x = 1; y < cookies.length; x++) {
 
 
 
-const llamaNamer = function () {
-    const possibleNames = ["Larry", "Leon", "Leona", "Les", "Laura", "Lemony", "Lars", "Lekisha"]
-    const randomizer = Math.floor(Math.random() * 7)
+// const llamaNamer = function () {
+//     const possibleNames = ["Larry", "Leon", "Leona", "Les", "Laura", "Lemony", "Lars", "Lekisha"]
+//     const randomizer = Math.floor(Math.random() * 7)
 
-    const namer = function () {
-        const suffix = " the Llama"
-        const name = possibleNames(randomizer)
-    }
+//     const namer = function () {
+//         const suffix = " the Llama"
+//         const name = possibleNames(randomizer)
+//     }
 
-    return name + suffix
+//     return name + suffix
+// }
+
+// nameMaker = llamaNamer()
+// console.log(nameMaker())
+
+// 1. Create a function that logs the result of adding two numbers that were passed in as arguments.
+// 2. Create another function that logs the result of subtracting two numbers that were passed in as arguments.
+// 3. Invoke each function a couple times with different argument values.
+
+function taco (a, b) {
+    console.log("yay we are adding", a + b);
 }
-
-nameMaker = llamaNamer()
-console.log(nameMaker())
