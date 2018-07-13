@@ -52,3 +52,31 @@ for (currentYear of birthRates) {
 }
 
 console.log(bestYears)
+
+
+
+
+const cookies = ["Oatmeal Raisin", "Chocolate Chip", "Sugar", "Peanut Butter", "Snickerdoodle", "Ginger"]
+let y = 1
+
+for (let x = 1; y < cookies.length; x++) {
+    const currentCookie = cookies[0]
+    console.log(`Mmmmmmm... that's a good ${currentCookie} cookie`)
+}
+
+
+
+const llamaNamer = function () {
+    const possibleNames = ["Larry", "Leon", "Leona", "Les", "Laura", "Lemony", "Lars", "Lekisha"]
+    const randomizer = Math.floor(Math.random() * 7)
+
+    const namer = function () {
+        const suffix = " the Llama"
+        const name = possibleNames(randomizer)
+    }
+
+    return name + suffix
+}
+
+nameMaker = llamaNamer()
+console.log(nameMaker())
